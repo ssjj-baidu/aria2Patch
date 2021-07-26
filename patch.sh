@@ -1,0 +1,15 @@
+patch src/OptionHandlerFactory.cc ./patch/1.patch
+patch src/DownloadCommand.cc ./patch/2.patch
+patch src/SocketBuffer.cc ./patch/2.patch
+patch src/SocketCore.cc ./patch/2.patch
+patch src/HttpSkipResponseCommand.cc ./patch/3.patch
+patch src/OptionHandlerFactory.cc ./patch/3.patch
+patch src/prefs.cc ./patch/3.patch
+patch src/prefs.h ./patch/3.patch
+patch src/usage_text.h ./patch/3.patch
+patch src/AbstractProxyRequestCommand.cc ./patch/4.patch
+patch src/HttpRequestCommand.cc ./patch/4.patch
+patch src/OptionHandlerFactory.cc ./patch/4.patch
+patch src/prefs.cc ./patch/4.patch
+patch src/prefs.h ./patch/4.patch
+patch src/usage_text.h ./patch/4.patch
